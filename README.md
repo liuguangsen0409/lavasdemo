@@ -2,23 +2,21 @@
 
 > 这是一个 Lavas PWA 项目
 
-## npm 相关命令
+## yarn 相关命令
 
 ``` bash
 # 安装工程依赖
-npm install
+yarn install
 
 # 在本地启动调试 server
-npm run dev
+lavas dev
 
 # 构建线上生产环境产物
-npm run build
+lavas build
 
 # 启动编译后的代码，注意，需要在 dist 目录中启动，仅 SSR 模式下有效
-npm run start
+lavas start
 
-# 检查代码是否符合规范
-npm run lint
 ```
 
 Lavas 工程模版基于 [vue-template-vue](https://github.com/lavas-project/lavas-template-vue/) 模版的 `release-*` 分支创建。
